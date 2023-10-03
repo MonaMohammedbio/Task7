@@ -100,7 +100,7 @@ void main() {
                               ),
 
               SizedBox(width: 200,
-               height: 250,child:Image.asset("images/mixed-berries-pavlova-pie-cake-preview.png") ,)
+               height:200,child:Image.asset("images/mixed-berries-pavlova-pie-cake-preview.png",fit:BoxFit.fill ,))
             ],
           ),
         ),
